@@ -1,0 +1,12 @@
+@media(max-width:1000px)
+{
+    .navbar{
+        width: 1000px;
+    }
+    .screen{
+        width:1000px;
+    }
+    .content{
+        width: 1000px;
+    }
+}

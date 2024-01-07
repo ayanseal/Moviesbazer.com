@@ -1,0 +1,117 @@
+body{
+    position: absolute;
+    margin: 0px;
+    
+}
+.navbar{
+    position: fixed;
+    display: flex;
+    background-color: black;
+    height:55px;
+    width:1518;
+    margin-top:0px;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    z-index: 1;
+    
+
+}
+
+#user_img{   
+    height: 37px;
+    border-radius:50%;
+}
+#a_img{
+    position: relative;
+    margin-right: 65px;
+    border-radius: 50%;
+    height: 37px;
+    align-self:center;
+}
+#search
+{
+    position: relative;
+
+    border-style: none;
+    
+    height: 32px;
+    width: 280px;
+     
+    border-top-right-radius: 0px;
+    border-top-left-radius: 25px;                
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 25px;
+    
+    align-self: center;
+}
+#icon_search
+{
+    position: relative;
+   margin-right: 40px;
+    height: 32px;
+    width: 39px;
+    
+    border-top-right-radius: 25px;
+    border-top-left-radius: 0px;                
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 0px;
+   
+    background-color: #d62828;
+    
+    align-self: center;
+    
+    
+}
+#search_icon_img{
+    position:static;
+    filter: invert(100%);
+    margin-top:1.7px;
+    margin-left: 3.5px;
+    
+    align-self: center;
+}
+.screen_box{
+    position: relative;
+    display: flex;
+    margin-top: 55px;
+    width:1518px;
+    height: 320px;
+    border-style: solid;
+    border-color: #931b1b;
+    justify-content: center;
+    border-width: 0px;
+
+}
+
+.content_box{
+    
+    position: relative;
+    display: flex;
+    margin-top: 0px;
+    width:1518px;
+    
+    border-style: solid;
+    border-color: #931b1b;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border-width: 0px;
+
+    
+}
+#poster_in_content{
+    
+    margin: 25px 40px 40px 25px;
+}
+#poster_in_content:hover{
+    transform:all 0.5 ease-in;
+
+}
+.footer{
+    position: relative;
+    display: flex;
+    background-color: #931b1b;
+    height:100px;
+    width:1518px;
+    margin-bottom:0px;
+
+}
